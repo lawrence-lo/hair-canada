@@ -1,0 +1,45 @@
+extends layout
+block layout-content
+  main
+    section#welcome.d-flex.flex-column.justify-content-center.text-white.text-center
+      h1 Toronto's premier hair salon
+      p.lead Beautiful hair in professional hands.
+    section#newsletter.my-5.text-center
+      h2.title Newsletter
+      p Sign up below to be the first to hear about our special events, offers, and discounts!
+      form(action='#')
+        div
+          label(for='email') Email Address
+        div
+          input#email(type='email' name='email')
+        div
+          input(type='submit' value='Submit')
+    section#location.my-5.text-center
+      h2.title Location & Hours
+      div.container.d-sm-flex.flex-row.justify-content-center
+        div.mx-5.p-5
+          p 
+            | Hair Canada
+            br
+            | 1499 The Queensway
+            br 
+            | Etobicoke ON, M8Z 1T3
+            br
+            | (416) 123-4567
+            br
+            | salon@nothaircanada.ca
+        div.mx-5
+          p
+            | Monday  9-8
+            br
+            | Tuesday 9-8
+            br
+            | Wednesday 9-8
+            br
+            | Thursday  9-8            
+            br
+            | Friday  9-8
+            br
+            | Saturday  9-6
+            br
+            | Sunday  Closed            
