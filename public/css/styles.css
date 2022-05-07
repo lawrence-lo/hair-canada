@@ -97,13 +97,18 @@ a {
 }
 
 /* || Newsletter */
+#newsletter p {
+    margin: 1rem;
+}
+
 #newsletter input[type="email"]{
-    min-width: 40rem;
+    min-width: 30rem;
     border: solid 1px #CCC;
     padding: 0.3rem;
 }
 
 #newsletter input[type="submit"]{
+    color: #000;
     background-color: #FFF;
     border: solid 1px #CCC;
     padding: 0.5rem 2rem;
