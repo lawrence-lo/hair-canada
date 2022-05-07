@@ -1,9 +1,14 @@
 {
   "name": "hair-canada",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.17.2"
+  },
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon ./index.js"
   },
   "author": "Lawrence Lo",
